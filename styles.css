@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 95%); /* Light background for body */
+}
+
+header {
+    background: #626ea5;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+    padding-bottom:10px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+#home {
+    background: #f4f4f4;
+    text-align: center;
+}
+#about {
+    background: #bee4f6; /* Light pink background for about section */
+}
+#projects {
+    background: #e6e6fa; /* Light lavender background for projects section */
+    padding: 2rem;
+    margin: 2rem auto; /* Ensure the margin is applied */
+    max-width: 80%; /* Set max-width to contain the content */
+    border-radius: 15px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for effect */
+    text-align: center; /* Center-align the header */
+}
+#skills {
+    text-align: center;
+    background: #f1e6f1; /* Light beige background for skills section */
+    padding: 2rem 0; /* Add padding to the section */
+    margin: 2rem auto; /* Ensure the margin is applied */
+    max-width: 84%; /* Set max-width to contain the content */
+    border-radius: 15px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for effect */
+}
+
+
+#projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#projects .project-list .project-item {
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+}
+
+#contact {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #eecece; /* Light background color */
+}
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Optional: Set a max-width to limit form width */
+    margin: auto; /* Optional: Center align the form */
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 5px 4px 8px rgba(22, 227, 66, 0.1); /* Add box shadow for a subtle effect */
+    border-radius: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 100%; /* Optional: Full width input fields */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+
+#contact-form button {
+    padding: 0.75rem 1.5rem; /* Adjust padding for better click area */
+    background:  #64c4c9;
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Adjust border-radius if needed */
+    cursor: pointer;
+    width: auto; /* Allow the button to expand to fit its content */
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center-align the button horizontally */
+}
+#contact-form button:hover {
+    background: #6416e2;/* Darker background on hover */
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    position: fixed; /* Fixed positioning */
+    top: 50%; /* Align vertically to the middle of the viewport */
+    right: 25px; /* Position slightly away from the right edge */
+    transform: translateY(-50%); /* Center align vertically */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.social-links a {
+    margin-bottom: 6px; /* Adjust margin between social icons */
+    font-size: 30px; /* Increase icon size */
+    background-color: transparent; /* Initial background color */
+    padding: 3px; /* Add padding for better visual appearance */
+    /*border-radius: 0px; /* Make the background a circle */
+    transition: background-color 1s ease; /* Smooth transition for hover effect */
+}
+.social-links a:hover {
+    background-color: #7057b0; /* Optional: Change color on hover */
+    
+}
+section {
+    padding: 2rem;
+    margin: 2rem auto; /* Add margin to separate sections */
+    max-width: 80%; /* Set max-width to contain the content */
+    border-radius: 15px; /* Add border radius to sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for effect */
+}
+
+#home {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 300PX;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    background: #fff; /* Add background color for the card */
+    flex-direction: column; /* Add flex direction */
+    justify-content: space-between; /* Add justify content */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+}
+
+.project-card p {
+    padding: 0 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #64c4c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #6416e2;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Skills Section */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*text-align: center;*/
+    align-items: center;
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+.skill {
+    flex: 0 1 25%;
+    box-sizing: border-box;
+    margin: 35px 0;
+    text-align: center;
+}
+
+.skill i {
+    font-size: 50px;
+    color: #444;
+    margin-bottom: 10px;
+}
+

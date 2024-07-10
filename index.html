@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorkha Khatri - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image" href="images/favicon.xcf">
+</head>
+<body>
+    <header>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/gorkha-khatri-94904b23b/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/KhatriGorkha" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href = "https://www.facebook.com/gorkhabahadur.khatri.3/" target=" _blank" rel = "noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href = "https://www.instagram.com/gorkhabahadurkhatri/" target="_blank" rel = "noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate software developer with a strong foundation in Information Technology
+            and a Bachelor's degree in Software Development. I have hands-on experience in building web
+             applications using HTML, CSS, and JavaScript, and I am enthusiastic about exploring new
+             technologies to expand my skill set.</p>
+        <p>Driven by a curiosity to create user-friendly applications, I recently ventured into user
+            experience and UI design, aiming to combine technical proficiency with intuitive design principles.
+             My goal is to leverage my technical skills and creativity to deliver impactful solutions that enhance user experience.</p>
+        <p>Outside of coding, I enjoy cycling, exploring new cuisines, and continuously learning through
+             online courses and projects. I am currently based in Perth, Australia, and actively seeking for job opportunities.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <img src="images/weather.png" alt="Project 1">
+                <h3>Weather App</h3>
+                <p>A weather application using the OpenWeatherMap API, built with HTML, CSS, and JavaScript.</p>
+                <div class="project-links">
+                <a href="https://github.com/KhatriGorkha/weather-app" target="_blank">View Code</a>
+                <a href="https://khatrigorkha.github.io/weather-app/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/to-do.png" alt="To-Do List App">
+                <h3>To-Do List App</h3>
+                <p>A to-do list application where you can list tasks and mark them as done, built with HTML, CSS, and JavaScript.</p>
+                <div class="project-links">
+                <a href="https://github.com/KhatriGorkha/to-do" target="_blank">View Code</a>
+                <a href="https://khatrigorkha.github.io/to-do/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/design.png" alt="Itch.io UX Project">
+                <h3>User interface and  Experience Design</h3>
+                <p>Complete documentation of designing user interface and user experience.</p>
+               <div class="project-links"> 
+                <a href="https://docs.google.com/document/d/1nhoPUtukj71W6zzDm08nX9boGAwX23PZ/edit?usp=drive_link&ouid=104870025192179186082&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/logo.jpeg" alt="Japanese Restaurant Logo">
+                <h3>Logo Designing</h3>
+                <p>Created a logo for a Japanese restaurant using Canva.</p>
+                <a href="https://www.canva.com/design/DAFoqadPA_I/-jjU1oR9z6M6sUXZvUzo-g/edit" target="_blank">View Logo</a>
+            </div>
+
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-angular"></i>
+                <p>Angular</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-jira"></i>
+                <p>Jira</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-confluence"></i>
+                <p>Confluence</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-users"></i>
+                <p>User Experience</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i>
+                <p>UI Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gorkha Khatri. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
